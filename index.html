@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Cadastro de Produtos</title>
+   <link rel="stylesheet" href="./styles/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <div>
+      <div class="center">
+         <img class="illustration-two" src="./sources/illustration2.png" alt="Illustration Two" />
+      </div>
+
+      <h1><b>Cadastro de Produtos</b></h1>
+      <div class="center-inputs">
+         <label><b>Produto:</b></label>
+         <input type="text" id="produtoInput" />
+         <label><b>Valor:</b></label>
+         <input type="number" id="valorInput" />
+      </div>
+      <div class="div-button-salvar">
+         <button class="button-salvar" onclick="salvarDados()">SALVAR</button>
+      </div>
+
+   </div>
+
+   <h1><b>Tabela de Produtos</b></h1>
+   <div class="center-inputs">
+      <table id="tabelaProdutos">
+         <tr>
+            <th>Produto</th>
+
+            <th>Preço</th>
+
+            <th>Ação</th>
+         </tr>
+      </table>
+   </div>
+   <div class="div-footer">
+      <nav>
+         <ul>
+            <li><a href="informacoes.html">Sobre</a></li>
+         </ul>
+      </nav>
+   </div>
+   <script src="script.js"></script>
+
+</body>
+
+</html>

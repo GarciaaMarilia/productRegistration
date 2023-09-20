@@ -1,0 +1,142 @@
+body {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ justify-content: flex-center;
+ background-color: #26577c;
+}
+
+h1 {
+ color: #fff;
+ font-size: 40px;
+ padding-top: 40px;
+ text-align: center;
+ font-family: "Inclusive Sans", sans-serif;
+}
+
+p {
+ color: #fff;
+ font-size: 30px;
+ text-align: center;
+ padding-inline: 40px;
+ font-family: "Inclusive Sans", sans-serif;
+}
+
+th {
+ color: #fff;
+ padding: 8px;
+ font-size: 20px;
+ border: 1px solid #ddd;
+ font-family: "Inclusive Sans", sans-serif;
+}
+
+td {
+ padding: 8px;
+ border: 1px solid #ddd;
+}
+
+li {
+ color: #fff;
+ font-size: 20px;
+ font-family: "Inclusive Sans", sans-serif;
+}
+
+input {
+ width: 200px;
+ height: 30px;
+ border-radius: 4px;
+ justify-content: center;
+ background-color: #fff;
+}
+
+label {
+ color: #fff;
+ font-size: 26px;
+ margin-inline: 12px;
+ font-family: "Inclusive Sans", sans-serif;
+}
+
+table {
+ width: 70%;
+ border-collapse: collapse;
+ background-color: #26577c;
+}
+
+.center-inputs {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.center {
+ height: 30vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.div-button-salvar {
+ margin-top: 20px;
+ text-align: center;
+}
+
+.div-footer {
+ color: #26577c;
+ padding: 10px 0;
+ text-align: center;
+}
+
+/* Style the footer links */
+.div-footer ul {
+ list-style: none; /* Remove list bullets */
+ padding: 0;
+}
+
+.div-footer ul li {
+ display: inline; /* Display list items horizontally */
+ margin-right: 10px; /* Add spacing between links */
+}
+
+.div-footer ul li a {
+ text-decoration: none; /* Remove underlines from links */
+ color: white; /* Link text color */
+}
+
+/* Style the footer links on hover */
+.div-footer ul li a:hover {
+ text-decoration: underline; /* Add underline on hover */
+}
+
+.button-salvar {
+ border: none;
+ cursor: pointer;
+ font-size: 16px;
+ color: #26577c;
+ padding-top: 10px;
+ font-weight: bold;
+ padding-inline: 20px;
+ padding-bottom: 10px;
+ background-color: #fff;
+}
+
+.button-salvar:hover {
+ background-color: #ebe4d1;
+}
+
+.cell-produto {
+ color: #fff;
+ text-align: center;
+ font-size: 20px;
+ font-family: "Inclusive Sans", sans-serif;
+}
+
+.cell-valor {
+ color: #fff;
+ font-size: 20px;
+ text-align: center;
+ font-family: "Inclusive Sans", sans-serif;
+}
+
+.cell-acao {
+ text-align: center;
+}
