@@ -53,4 +53,4 @@ You will need the following tools to run the application:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/product-registration.git
+   git clone https://github.com/GarciaaMarilia/product-registration.git
