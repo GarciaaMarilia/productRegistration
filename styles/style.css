@@ -3,7 +3,7 @@ body {
  padding: 0;
  box-sizing: border-box;
  justify-content: flex-center;
- background-color: #26577c;
+ background-color: #132043;
 }
 
 h1 {
@@ -59,7 +59,7 @@ label {
 table {
  width: 70%;
  border-collapse: collapse;
- background-color: #26577c;
+ background-color: #132043;
 }
 
 .center-inputs {
@@ -81,7 +81,7 @@ table {
 }
 
 .div-footer {
- color: #26577c;
+ color: #132043;
  padding: 10px 0;
  text-align: center;
 }
@@ -108,19 +108,18 @@ table {
 }
 
 .button-salvar {
- border: none;
- cursor: pointer;
- font-size: 16px;
- color: #26577c;
- padding-top: 10px;
- font-weight: bold;
- padding-inline: 20px;
- padding-bottom: 10px;
- background-color: #fff;
+ background-color: #414a61; /* Set the background color */
+ color: white; /* Set the text color */
+ padding: 10px 20px; /* Add padding to the button */
+ border: none; /* Remove the button border */
+ border-radius: 5px; /* Add rounded corners */
+ cursor: pointer; /* Add a pointer cursor on hover */
+ font-size: 16px; /* Set the font size */
 }
 
 .button-salvar:hover {
- background-color: #ebe4d1;
+ background-color: 1F4172;
+ color:#132043
 }
 
 .cell-produto {
@@ -139,4 +138,47 @@ table {
 
 .cell-acao {
  text-align: center;
+}
+
+/* Define the scrollbar */
+::-webkit-scrollbar {
+ width: 20px; /* Set the width of the scrollbar */
+}
+
+/* Define the scrollbar track */
+::-webkit-scrollbar-track {
+ background-color: #132043; /* Set the background color of the track */
+}
+
+/* Define the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+ background-color: #fdf0f0; /* Set the color of the thumb */
+ border-radius: 5px; /* Set the radius of the thumb */
+}
+
+/* Define the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+ background-color: #fdf0f0; /* Change the color on hover */
+}
+
+/* Define the scrollbar corner */
+::-webkit-scrollbar-corner {
+ background-color: transparent; /* Set the color of the scrollbar corner */
+}
+/* Style the input text field */
+input[type="text"],
+input[type="number"] {
+ width: 200px; /* Set the width of the input field */
+ padding: 10px; /* Add padding to the text inside the input field */
+ border: 2px solid #ccc; /* Add a border */
+ border-radius: 5px; /* Add rounded corners */
+ outline: none; /* Remove the default input focus outline */
+ font-size: 16px; /* Set the font size */
+}
+
+/* Style the input text field on focus */
+input[type="text"]:focus,
+input[type="number"]:focus {
+ border-color: #007bff; /* Change the border color on focus */
+ box-shadow: 0 0 5px #007bff; /* Add a shadow on focus */
 }
